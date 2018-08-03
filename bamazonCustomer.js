@@ -127,7 +127,7 @@ function removeStock(item, num) {
                 return con.end();
             }
         });
-    })
+    });
 }
 
 function buildTable(items) {
